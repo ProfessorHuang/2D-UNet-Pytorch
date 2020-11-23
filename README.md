@@ -1,13 +1,18 @@
 # 2D-UNet-Pytorch
 使用2D-UNet和2D-UNet++(Nested UNet)对Chaos、Promise12两个数据集进行分割
+## 所使用的Python库
+- Pytorch1.x
+- numpy
+- tqdm
+- opencv-python
+- PIL
+- pydicom
+- SimpleITK
 ## 数据集获取
 ### CHAOS
 https://chaos.grand-challenge.org/Combined_Healthy_Abdominal_Organ_Segmentation/
 在官网下载好数据后，解压CHAOS_Train_Sets.zip压缩包，将其下的CT文件夹复制到代码目录的data/chaos文件夹中。
 
-
-
-    
 ### PROMISE12
 https://promise12.grand-challenge.org/
 在官网下载好数据后，训练数据存放在三个压缩包中，将三个压缩包分别解压，并将内容复制到代码目录的data/promise12文件夹中。
